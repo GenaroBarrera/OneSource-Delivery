@@ -1,0 +1,14 @@
+<div>
+    <form #loginForm="ngForm" novalidate>
+        <div>
+            <input name="email" #email type="text" placeholder="User Email" [(ngModel)]="userEmail" required/>
+        </div>
+        <div>
+            <input name = "password" #password type="password" placeholder="Password" [(ngModel)]="userPassword" required/>
+        </div>
+        <div>
+            <button [disabled]="!loginForm.valid" (click)="onSubmitClick()">Submit</button>
+        </div>
+        <p>{{message}}</p>
+    </form>
+</div>

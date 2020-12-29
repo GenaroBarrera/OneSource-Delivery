@@ -44,3 +44,7 @@ List of features ready and TODOs for future development
 Extra Features (TODO)
 * (TODO) A user can create a weekly order list
 * (TODO) A user can browse recipes and add ingredients to cart
+
+## Contributors
+
+> Joseph Feldmann, Genaro Barrera, Dominic Marosok
